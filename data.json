@@ -1,0 +1,56 @@
+// data.json
+{
+  "width": "100%", //sets width
+  "height": "600", //sets height
+  "symbolsGroups": [
+    {
+      "name": "Stocks", //new section inside widget
+      "symbols": [
+        {
+          "name": "TSX:ATH",
+          "displayName": "Athabasca Oil" // specific stock
+        },
+        {
+          "name": "TSX:BTE",
+          "displayName": "Baytex"
+        },
+        {
+          "name": "TSX:CPH",
+          "displayName": "Cypher Phrama"
+        }
+        {
+          "name": "TSX:TNZ",
+          "displayName": "Tenaz"
+        }
+        {
+          "name": "TSX:VLE",
+          "displayName": "Valeura Energy"
+        }
+        {
+          "name": "TSXV:GMIN",
+          "displayName": "G Mining"
+        }
+        {
+          "name": "TSX:BDT",
+          "displayName": "Bird Construction"
+        }
+        {
+          "name": "TSX:SRU.UN",
+          "displayName": "SmartCentres REIT"
+        }
+        {
+          "name": "TSX:T",
+          "displayName": "Telus"
+        }
+        {
+          "name": "TSX:BNS",
+          "displayName": "Bank of Nova Scotia"
+        }
+      ]
+    }
+  ], //shows stock info
+  "showSymbolLogo": true,
+  "colorTheme": "dark", //color theme
+  "isTransparent": true, //transparent bg
+  "locale": "en" //language
+}
